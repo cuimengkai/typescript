@@ -1,0 +1,25 @@
+{
+  "name": "typescript",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuimengkai/typescript.git"
+  },
+  "keywords": [
+    "typescrpt",
+    "javascrpt",
+    "node",
+    "js"
+  ],
+  "author": "cuimengkai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuimengkai/typescript/issues"
+  },
+  "homepage": "https://github.com/cuimengkai/typescript#readme"
+}
