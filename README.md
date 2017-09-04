@@ -16,3 +16,12 @@ console.info(greeter(user))
 
 Sublime TypeScript 语法高亮校验 插件
 preference -> Package Control ->Install Package 输入TypeScript 找到 enter
+
+typescript & gulp
+
+使用npm install命令来安装包。 首先全局安装gulp-cli
+npm install -g gulp-cli
+
+然后安装typescript，gulp和gulp-typescript到开发依赖项。 Gulp-typescript是TypeScript的一个Gulp插件。
+
+npm install --save-dev typescript gulp gulp-typescript

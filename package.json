@@ -1,8 +1,8 @@
 {
-  "name": "typescript",
+  "name": "typescript1",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "1.创建一个名字是typescript文件夹:mkdir typescrit 2.进入文件夹:cd typescript 3.将所创建的typescript转换成包:npm init  4.引入基于node的typescript依赖库:npm install -g typescript 5.在当前文件夹下面创建一个文件:vim greeter.ts 6.编辑内容 function greeter(persion){     return \"Hello , \"+persion; } var user = \"Trek\"; console.info(greeter(user)) 7.将ts文件编译成js文件:tsc greeter.ts(会在当前位置生成一个同名的js)",
+  "main": "./dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,20 @@
   "bugs": {
     "url": "https://github.com/cuimengkai/typescript/issues"
   },
-  "homepage": "https://github.com/cuimengkai/typescript#readme"
+  "homepage": "https://github.com/cuimengkai/typescript#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "tsify": "^3.0.1",
+    "typescript": "^2.5.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  }
 }
